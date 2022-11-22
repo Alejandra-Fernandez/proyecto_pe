@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:proyecto_pe/Login/LoginPage.dart';
 import 'package:proyecto_pe/Register/RegisterPage.dart';
 
 
