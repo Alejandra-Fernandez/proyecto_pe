@@ -17,13 +17,15 @@ class InputWrapper extends StatelessWidget {
             ),
             child: InputField(),
           ),
+
+          SizedBox(height: 40,),
+          Button(),
+
           SizedBox(height: 40,),
           Text(
             "¿Olvidaste tu contraseña?",
             style: TextStyle(color: Colors.indigo[200]),
           ),
-          SizedBox(height: 40,),
-          Button()
         ],
       ),
     );

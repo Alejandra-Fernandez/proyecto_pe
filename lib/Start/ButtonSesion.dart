@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:proyecto_pe/Login/LoginPage.dart';
 
-import '../Navigation/navigation.dart';
 
-class Button extends StatelessWidget{
+class ButtonSesion extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
 
@@ -19,19 +19,16 @@ class Button extends StatelessWidget{
         ],
             begin: Alignment.topLeft, end: Alignment.bottomRight),
       ),
-      /*decoration: BoxDecoration(
-        color: Colors.deepPurple.shade500,
-        borderRadius: BorderRadius.circular(20),
-      ),*/
+
       child: Center(
         child: MaterialButton(
           onPressed: () {
             Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => MyHomePage()),
+              MaterialPageRoute(builder: (context) => LoginPage()),
             );
           },
-          child: Text("Ingresar",style: TextStyle(
+          child: Text("Iniciar Sesion",style: TextStyle(
               color: Colors.white,
               fontSize: 15,
               fontWeight: FontWeight.bold
@@ -41,8 +38,4 @@ class Button extends StatelessWidget{
     );
   }
 }
-
-
-
-
 
